@@ -1,0 +1,28 @@
+{
+  "name": "sheet-music-library-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ckopecky/sheet-music-library-be.git",
+  "author": "\"ckopecky\" <kopecky12112@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jsdom"
+
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --watch"
+  }
+}
