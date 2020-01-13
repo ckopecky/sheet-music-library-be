@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-let port = 5000;
+let port = 3333;
 
 server.use(express.json());
 
